@@ -90,4 +90,4 @@ const EditTodo = ({ todo }) => {
     );
 };
 
-export default EditTodo
+export default EditTodo;
