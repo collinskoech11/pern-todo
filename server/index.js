@@ -32,6 +32,13 @@ app.get("/todos", async (req, res) => {
     }
 })
 //get a todo
+app.get("/todo",async (req, res) => {
+    try {
+        const aTodo = await pool.query();
+    } catch (err) {
+        
+    }
+}
 //update a todo
 //delete a todo
 
